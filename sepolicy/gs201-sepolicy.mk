@@ -34,8 +34,11 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += device/google/gs201/sepolicy/system_ext/priv
 # Dauntless sepolicy (b/199685763)
 BOARD_SEPOLICY_DIRS += device/google/gs201/sepolicy/dauntless
 
-#   PowerStats HAL
+# PowerStats HAL
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/powerstats
 
 # Health HAL
 BOARD_SEPOLICY_DIRS += device/google/gs201/sepolicy/health
+
+# Face HAL service
+BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs201/sepolicy/face
